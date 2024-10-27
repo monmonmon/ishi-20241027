@@ -1,0 +1,7 @@
+** sch_path: /Users/monmon/Desktop/ishi/simon.sch
+.subckt simon Q A VSS VDD
+*.PININFO Q:O A:I VSS:B VDD:B
+M2 Q A VDD VDD pchor1ex L=1u W=2u m=1
+M3 Q A VSS VSS nchor1ex L=1.0u W=2.0u m=1
+.ends
+.end
